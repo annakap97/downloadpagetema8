@@ -1,0 +1,143 @@
+
+/*@import url('content.css');
+@import url('fonter.css');
+*/
+
+:root {
+    --green: #44F8A5;
+    --yellow: #F8F844;
+    --grey: #484848;
+    --white: #FFFFFF;
+
+    --neuelight:font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    --neueroman:font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    --neuemedium:font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    --bebasbold:font-family: bebas-neue-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: neue-haas-grotesk-display, sans-serif;
+}
+
+.main {
+    background-color: var(--green);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: var(--grey);
+}
+
+.main-content {
+    justify-self: start;
+    margin-left: 20px;
+    color: var(--white);
+    width: 80%;
+}
+
+.main-content h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.75rem; /*60px*/
+    color: var(--green);
+}
+
+.main-content p {
+    margin-top: 1rem;
+    margin-bottom: 100px;
+    margin-left: 40%;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.375rem; /*22px*/
+    color: var(--white);
+}
+
+.main-btn {
+    display: block;
+    background-color: var(--yellow);
+      /*padding: 48px 327px;*/
+    border: none;
+    border-radius: 0.5rem;
+    /*color: var(--yellow);*/
+    cursor:pointer;
+    margin-top: 100px;
+    width: 50%;
+    height: 48px;
+    margin-top: 2rem;
+    margin-left: 40%;
+    
+}
+
+.main-btn a {
+    position: relative;
+    cursor:pointer;
+    display: inline-block;
+    color: var(--grey);
+    z-index: 2;
+    text-decoration: none;
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5625rem; /*25px*/
+    transition: 0.2s;
+    text-align: center;
+    
+}
+
+.main-img-container {
+    text-align: center;
+    background-color: var(--green);
+    width: 120%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 180px;
+}
+
+#main-img {
+    height: 80%;
+    width: 100%;
+    padding: 20px;
+}
+
+.header {
+    background-color: var(--grey);
+}
+
+.header h1{
+    width: 100vw;
+    border: 0px solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.75rem; /*60px*/
+    color: var(--green);
+}
